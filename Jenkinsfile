@@ -4,6 +4,7 @@ pipeline {
         DOCKER_IMAGE_NAME = "qeqoos/train-schedule"
         CANARY_REPLICAS = 0
     }
+    
     stages {
         stage('Build') {
             steps {
